@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-import { ExampleComponent } from 'falling-emojis'
-import 'falling-emojis/dist/index.css'
+import { FallingEmojis } from 'falling-emojis';
+import 'falling-emojis/dist/index.css';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+	return (
+		<div className='App'>
+			<FallingEmojis emoji={'🎉'} />
+		</div>
+	)
 }
 
-export default App
+export default App;

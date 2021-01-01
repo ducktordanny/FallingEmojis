@@ -13,16 +13,18 @@ npm install --save falling-emojis
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react';
+import { FallingEmojis } from 'falling-emojis';
 
-import MyComponent from 'falling-emojis'
-import 'falling-emojis/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+	return (
+		<div>
+		  <FallingEmojis emoji={'🎉'} />
+		</div>
+	)
 }
+
+export default App;
 ```
 
 ## License

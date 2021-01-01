@@ -1,9 +1,75 @@
-/* add css module styles here (optional) */
-
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.FallingEmojis {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 9;
 }
+.FallingEmojis .emoji {
+  position: relative;
+  font-size: 36px;
+  opacity: 0;
+}
+.FallingEmojis .emojiAnimation0 {
+  animation: float 6s ease-in-out;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+}
+.FallingEmojis .emojiAnimation1 {
+  animation: float 8s ease-in-out;
+  animation-delay: 1;
+  animation-iteration-count: infinite;
+}
+.FallingEmojis .emojiAnimation2 {
+  animation: float 10s ease-in-out;
+  animation-delay: 2;
+  animation-iteration-count: infinite;
+}
+.FallingEmojis .emojiAnimation3 {
+  animation: float 12s ease-in-out;
+  animation-delay: 3;
+  animation-iteration-count: infinite;
+}
+.FallingEmojis .emojiAnimation4 {
+  animation: float 14s ease-in-out;
+  animation-delay: 4;
+  animation-iteration-count: infinite;
+}
+@keyframes float {
+  0% {
+    opacity: 0;
+    top: -10%;
+    left: 0%;
+  }
+  25% {
+    opacity: 0.8;
+    left: 5%;
+  }
+  50% {
+    opacity: 1;
+    left: 0%;
+  }
+  75% {
+    opacity: 0.2;
+    left: 5%;
+  }
+  100% {
+    top: 100%;
+    left: 0%;
+    opacity: 0;
+  }
+}
+@media (max-width: 650px) {
+  .FallingEmojis .emoji {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .FallingEmojis .emoji {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.module.css.map */
