@@ -31,9 +31,10 @@ const App = () => {
 export default App;
 ```
 
-## Look
+## Sample
 
-![Sample](https://i.imgur.com/LVTvE1U.mp4)
+Originally I made a site (Check it out: https://forever2020.dnyyy.vercel.app/) where I made this falling animation
+and I thougth it might be helpful, easier and interesting to others.
 
 ## License
 
