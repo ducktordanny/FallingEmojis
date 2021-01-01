@@ -1,10 +1,10 @@
 {
   "name": "falling-emojis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Choose an emoji and make a rain with it.",
   "author": "dnyyy",
   "license": "MIT",
-  "repository": "dnyyy/falling-emojis",
+  "repository": "DannyLarn/FallingEmojis",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

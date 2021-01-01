@@ -8,9 +8,13 @@
 
 ```bash
 npm install --save falling-emojis
+or
+yarn add falling-emojis
 ```
 
 ## Usage
+
+See more on github.
 
 ```jsx
 import React from 'react';
