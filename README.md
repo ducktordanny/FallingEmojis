@@ -31,6 +31,10 @@ const App = () => {
 export default App;
 ```
 
+## Look
+
+![Sample](https://i.imgur.com/LVTvE1U.mp4)
+
 ## License
 
 MIT © [dnyyy](https://github.com/dnyyy)
