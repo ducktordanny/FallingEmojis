@@ -21,11 +21,7 @@ import React from 'react';
 import { FallingEmojis } from 'falling-emojis';
 
 const App = () => {
-	return (
-		<div>
-		  <FallingEmojis emoji={'🎉'} />
-		</div>
-	)
+  return <FallingEmojis emoji={'🎉'} />
 }
 
 export default App;
