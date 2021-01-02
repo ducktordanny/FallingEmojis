@@ -1,6 +1,6 @@
 {
   "name": "falling-emojis",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Choose an emoji and make a rain with it.",
   "author": "dnyyy",
   "license": "MIT",
@@ -49,5 +49,14 @@
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "react",
+    "component",
+    "react-component",
+    "react-falling-emojis",
+    "falling",
+    "emojis",
+    "falling-emojis"
   ]
 }
