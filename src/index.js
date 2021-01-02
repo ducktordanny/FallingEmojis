@@ -1,4 +1,5 @@
 import React from 'react';
+import 'falling-emojis/dist/index.css';
 import styles from './styles.module.css';
 
 export const FallingEmojis = ({ emoji }) => {
