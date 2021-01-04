@@ -32,10 +32,6 @@ export default App;
 Originally I made a site (Check it out: https://forever2020.dnyyy.vercel.app/) where I made this falling animation
 and I thougth it might be helpful, easier and interesting to others.
 
-## To Do:
-
-* [ ] Fix position and z-index problems...
-
 ## License
 
 MIT © [dnyyy](https://github.com/dnyyy)
