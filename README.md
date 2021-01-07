@@ -34,7 +34,7 @@ and I thougth it might be helpful, easier and interesting to others.
 
 ## To Do:
 
-* [ ] Fix position and z-index problems...
+* [x] Fix position and z-index problems...
 
 ## License
 
