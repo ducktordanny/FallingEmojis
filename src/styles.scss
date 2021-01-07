@@ -1,5 +1,7 @@
 .FallingEmojis {
    position: fixed;
+   pointer-events: none;
+   border: 1px solid red;
    top: 0px;
    width: 100%;
    height: 100%;
@@ -17,6 +19,7 @@
       .emojiAnimation#{$i} {
          animation: float $i * 2 + 6s ease-in-out;
          animation-delay: $i;
+
          animation-iteration-count: infinite;
       }
       
