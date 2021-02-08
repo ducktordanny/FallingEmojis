@@ -1,6 +1,6 @@
 {
   "name": "falling-emojis",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Choose an emoji and make a rain with it.",
   "author": "dnyyy",
   "license": "MIT",
@@ -58,5 +58,6 @@
     "falling",
     "emojis",
     "falling-emojis"
-  ]
+  ],
+  "dependencies": {}
 }
