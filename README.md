@@ -35,6 +35,8 @@ and I thougth it might be helpful, easier and interesting to others.
 ## To Do:
 
 * [x] Fix position and z-index problems...
+* [ ] Rotation animation
+* [ ] More modification opporunities
 
 ## License
 
